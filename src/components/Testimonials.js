@@ -50,7 +50,7 @@ export default function Testimonials() {
                   <Star key={i} size={20} className="text-yellow-400 fill-current" />
                 ))}
               </div>
-              <p className="text-gray-700 mb-6 italic">"{testi.content}"</p>
+              <p className="text-gray-700 mb-6 italic">&quot;{testi.content}&quot;</p>
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center font-bold text-gray-500">
                   {testi.name.charAt(0)}

@@ -1,5 +1,6 @@
 "use client";
 import Image from 'next/image';
+import { motion } from 'framer-motion';
 
 const clients = [
   { name: 'Klien 1', logo: 'https://placehold.co/200x100/f3f4f6/374151?text=Klien+1' },
