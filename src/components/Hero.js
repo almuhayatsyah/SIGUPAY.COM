@@ -27,7 +27,7 @@ export default function Hero() {
   };
 
   return (
-    <section id="home" className="relative bg-gradient-to-br from-blue-50 via-white to-blue-50 pt-32 md:pt-48 pb-20 overflow-hidden">
+    <section id="home" className="relative bg-gradient-to-br from-blue-50 via-white to-blue-50 pt-24 md:pt-36 pb-20 overflow-hidden">
       {/* Decorative Background Elements */}
       <motion.div 
         animate={{ 
